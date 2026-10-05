@@ -1,0 +1,9 @@
+psycopg[binary]>=3.2
+pandas>=3.0
+numpy>=2.0
+scipy>=1.14
+pymc>=6.0
+arviz>=1.0
+nutpie>=0.16
+matplotlib>=3.9
+pytest>=8.0

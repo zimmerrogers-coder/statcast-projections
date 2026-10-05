@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+
+# downloaded data lives in Postgres, never in the repo
+data/
+*.csv
+*.parquet
