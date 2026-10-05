@@ -136,7 +136,10 @@ def build_model(data: ModelData) -> pm.Model:
             b1 = pm.Normal(f"age1_{name}", 0.0, 0.5)
             b2 = pm.Normal(f"age2_{name}", 0.0, 0.5)
             sigma = pm.HalfNormal(f"sigma_{name}", sigma_sd)
-            tau = pm.HalfNormal(f"tau_{name}", tau_sd)
+            # Gamma(2, .) puts no weight on exactly zero. Hitters do change from
+            # year to year, so "no change at all" is not a live possibility, and
+            # ruling it out removes a region the sampler gets stuck in.
+            tau = pm.Gamma(f"tau_{name}", alpha=2.0, beta=2.0 / tau_sd)
             # A hitter's level is drawn around the league centre for his age.
             # Written this way ("centred") the league numbers sit in the prior
             # of the levels, not beside them in the likelihood. With hundreds
@@ -153,9 +156,10 @@ def build_model(data: ModelData) -> pm.Model:
             aging = curve(b1, b2, data.age) - curve(b1, b2, first_age)[:, None]
             return level[:, None] + aging + drift + data.offsets[name][None, :]
 
-        eta_k = skill("k", _logit(0.22), 1.0, 1.0, 0.3)
-        eta_bb = skill("bb", _logit(0.10), 1.0, 1.0, 0.3)
-        eta_c = skill("c", float(np.log(0.37)), 0.5, 0.5, 0.2)
+        # last argument: prior mean of the yearly step size
+        eta_k = skill("k", _logit(0.22), 1.0, 1.0, 0.15)
+        eta_bb = skill("bb", _logit(0.10), 1.0, 1.0, 0.15)
+        eta_c = skill("c", float(np.log(0.37)), 0.5, 0.5, 0.05)
 
         pm.Binomial("k_obs", n=data.pa, p=pm.math.invlogit(eta_k[h, s]), observed=data.k)
         pm.Binomial("bb_obs", n=data.pa - data.k, p=pm.math.invlogit(eta_bb[h, s]),

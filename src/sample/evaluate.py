@@ -43,7 +43,7 @@ def load(conn) -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def fit_and_project(conn, history, league, target: int, version: str, result_pa=None,
-                    extra_hitters=None, draws: int = 1500, tune: int = 1500) -> dict:
+                    extra_hitters=None, draws: int = 2500, tune: int = 1500) -> dict:
     """Fit on the three seasons before `target`, project `target`, and store
     the run. Returns the projection table and the fit's diagnostics."""
     seasons = [target - 3, target - 2, target - 1]
