@@ -11,3 +11,6 @@ data/
 *.parquet
 
 *.bak
+
+# reports can contain sensitive information
+*.pdf
