@@ -1,0 +1,323 @@
+{
+  "scores": [
+    {
+      "method": "Bayesian model",
+      "hitters": 416,
+      "pa": 163808,
+      "rmse": 0.033607801407868204,
+      "mae": 0.026418266428114155,
+      "bias": 0.008587192488461104,
+      "rank_corr": 0.4313378027883532,
+      "coverage_80": 0.7668269230769231,
+      "luck_floor": 0.025705306784291886,
+      "target_season": "2024"
+    },
+    {
+      "method": "Marcel",
+      "hitters": 416,
+      "pa": 163808,
+      "rmse": 0.03515279550589868,
+      "mae": 0.02751639754328113,
+      "bias": 0.010429499921990767,
+      "rank_corr": 0.362405237996813,
+      "coverage_80": NaN,
+      "luck_floor": 0.025705306784291886,
+      "target_season": "2024"
+    },
+    {
+      "method": "last season's wOBA",
+      "hitters": 416,
+      "pa": 163808,
+      "rmse": 0.05105918802491042,
+      "mae": 0.03687783709350759,
+      "bias": 0.008629683032808741,
+      "rank_corr": 0.28984871417046165,
+      "coverage_80": NaN,
+      "luck_floor": 0.025705306784291886,
+      "target_season": "2024"
+    },
+    {
+      "method": "league average",
+      "hitters": 416,
+      "pa": 163808,
+      "rmse": 0.03900540954066253,
+      "mae": 0.029546886482955653,
+      "bias": 0.005658708347577651,
+      "rank_corr": NaN,
+      "coverage_80": NaN,
+      "luck_floor": 0.025705306784291886,
+      "target_season": "2024"
+    },
+    {
+      "method": "Bayesian model",
+      "hitters": 409,
+      "pa": 160072,
+      "rmse": 0.03322643369174602,
+      "mae": 0.025804096742812126,
+      "bias": -0.0036032698555139016,
+      "rank_corr": 0.43099311404447277,
+      "coverage_80": 0.80440097799511,
+      "luck_floor": 0.02590103773711083,
+      "target_season": "2025"
+    },
+    {
+      "method": "Marcel",
+      "hitters": 409,
+      "pa": 160072,
+      "rmse": 0.03299591866478915,
+      "mae": 0.025616073500712423,
+      "bias": 0.0032242358704650882,
+      "rank_corr": 0.36830916993191215,
+      "coverage_80": NaN,
+      "luck_floor": 0.02590103773711083,
+      "target_season": "2025"
+    },
+    {
+      "method": "last season's wOBA",
+      "hitters": 409,
+      "pa": 160072,
+      "rmse": 0.04460736435266569,
+      "mae": 0.032723622044718105,
+      "bias": -0.004094483422644421,
+      "rank_corr": 0.38471181065902416,
+      "coverage_80": NaN,
+      "luck_floor": 0.02590103773711083,
+      "target_season": "2025"
+    },
+    {
+      "method": "league average",
+      "hitters": 409,
+      "pa": 160072,
+      "rmse": 0.03783070233836577,
+      "mae": 0.02987057970713178,
+      "bias": -0.007236774662901671,
+      "rank_corr": NaN,
+      "coverage_80": NaN,
+      "luck_floor": 0.02590103773711083,
+      "target_season": "2025"
+    },
+    {
+      "method": "Bayesian model",
+      "hitters": 410,
+      "pa": 158905,
+      "rmse": 0.034274262801667524,
+      "mae": 0.026938961500946556,
+      "bias": -0.0004916952318914992,
+      "rank_corr": 0.39015954448445667,
+      "coverage_80": 0.7975609756097561,
+      "luck_floor": 0.025913643639465744,
+      "target_season": "2026"
+    },
+    {
+      "method": "Marcel",
+      "hitters": 410,
+      "pa": 158905,
+      "rmse": 0.03305416239045519,
+      "mae": 0.025849518605924614,
+      "bias": 0.004520819222981897,
+      "rank_corr": 0.3419188082980718,
+      "coverage_80": NaN,
+      "luck_floor": 0.025913643639465744,
+      "target_season": "2026"
+    },
+    {
+      "method": "last season's wOBA",
+      "hitters": 410,
+      "pa": 158905,
+      "rmse": 0.0532683308155466,
+      "mae": 0.03792672522618039,
+      "bias": -0.0032567937074059663,
+      "rank_corr": 0.2572885627318548,
+      "coverage_80": NaN,
+      "luck_floor": 0.025913643639465744,
+      "target_season": "2026"
+    },
+    {
+      "method": "league average",
+      "hitters": 410,
+      "pa": 158905,
+      "rmse": 0.03485133674900702,
+      "mae": 0.027484252769264656,
+      "bias": -0.003512326260973552,
+      "rank_corr": NaN,
+      "coverage_80": NaN,
+      "luck_floor": 0.025913643639465744,
+      "target_season": "2026"
+    },
+    {
+      "method": "Bayesian model",
+      "hitters": 1235,
+      "pa": 482785,
+      "rmse": 0.03370347224504669,
+      "mae": 0.026386015386103256,
+      "bias": 0.0015570810692426165,
+      "rank_corr": 0.4080738814317067,
+      "coverage_80": 0.7894736842105263,
+      "luck_floor": 0.025912777016201673,
+      "target_season": "all"
+    },
+    {
+      "method": "Marcel",
+      "hitters": 1235,
+      "pa": 482785,
+      "rmse": 0.033761956833701395,
+      "mae": 0.0263376863826554,
+      "bias": 0.006095728297495758,
+      "rank_corr": 0.355828870777826,
+      "coverage_80": NaN,
+      "luck_floor": 0.025912777016201673,
+      "target_season": "all"
+    },
+    {
+      "method": "last season's wOBA",
+      "hitters": 1235,
+      "pa": 482785,
+      "rmse": 0.04978205618128548,
+      "mae": 0.03584570075421068,
+      "bias": 0.0004985203842982934,
+      "rank_corr": 0.3068055584647984,
+      "coverage_80": NaN,
+      "luck_floor": 0.025912777016201673,
+      "target_season": "all"
+    },
+    {
+      "method": "league average",
+      "hitters": 1235,
+      "pa": 482785,
+      "rmse": 0.037289575925832014,
+      "mae": 0.028975309925080517,
+      "bias": -0.0016354888849902099,
+      "rank_corr": -0.02243456104717006,
+      "coverage_80": NaN,
+      "luck_floor": 0.025912777016201673,
+      "target_season": "all"
+    }
+  ],
+  "comparisons": [
+    {
+      "target_season": "2024",
+      "versus": "Marcel",
+      "rmse_gain": 0.0015449940980304736,
+      "gain_lo": 0.0004756545265156662,
+      "gain_hi": 0.0025652787091961947,
+      "share_better": 0.966
+    },
+    {
+      "target_season": "2024",
+      "versus": "last season's wOBA",
+      "rmse_gain": 0.017451386617042215,
+      "gain_lo": 0.013443944619553689,
+      "gain_hi": 0.021602681389247202,
+      "share_better": 1.0
+    },
+    {
+      "target_season": "2024",
+      "versus": "league average",
+      "rmse_gain": 0.005397608132794329,
+      "gain_lo": 0.002980508636147092,
+      "gain_hi": 0.0077224317434832004,
+      "share_better": 0.99975
+    },
+    {
+      "target_season": "2025",
+      "versus": "Marcel",
+      "rmse_gain": -0.00023051502695686787,
+      "gain_lo": -0.001256952619116093,
+      "gain_hi": 0.0008515089924493769,
+      "share_better": 0.40175
+    },
+    {
+      "target_season": "2025",
+      "versus": "last season's wOBA",
+      "rmse_gain": 0.01138093066091967,
+      "gain_lo": 0.00900919079262722,
+      "gain_hi": 0.013739008509403088,
+      "share_better": 1.0
+    },
+    {
+      "target_season": "2025",
+      "versus": "league average",
+      "rmse_gain": 0.0046042686466197455,
+      "gain_lo": 0.0023001209738555206,
+      "gain_hi": 0.007062941445660434,
+      "share_better": 0.99575
+    },
+    {
+      "target_season": "2026",
+      "versus": "Marcel",
+      "rmse_gain": -0.0012201004112123368,
+      "gain_lo": -0.002346752594960016,
+      "gain_hi": -7.24362202091267e-05,
+      "share_better": 0.0855
+    },
+    {
+      "target_season": "2026",
+      "versus": "last season's wOBA",
+      "rmse_gain": 0.018994068013879074,
+      "gain_lo": 0.014441691083270513,
+      "gain_hi": 0.023661172869286946,
+      "share_better": 1.0
+    },
+    {
+      "target_season": "2026",
+      "versus": "league average",
+      "rmse_gain": 0.0005770739473394959,
+      "gain_lo": -0.0012898354490532746,
+      "gain_hi": 0.0024298146219813334,
+      "share_better": 0.65275
+    },
+    {
+      "target_season": "all",
+      "versus": "Marcel",
+      "rmse_gain": 5.848458865470585e-05,
+      "gain_lo": -0.0005645664230031225,
+      "gain_hi": 0.0007059337073046852,
+      "share_better": 0.54925
+    },
+    {
+      "target_season": "all",
+      "versus": "last season's wOBA",
+      "rmse_gain": 0.01607858393623879,
+      "gain_lo": 0.013757415487120478,
+      "gain_hi": 0.018376165985746148,
+      "share_better": 1.0
+    },
+    {
+      "target_season": "all",
+      "versus": "league average",
+      "rmse_gain": 0.003586103680785324,
+      "gain_lo": 0.002303942716963609,
+      "gain_hi": 0.004903430771875654,
+      "share_better": 0.99975
+    }
+  ],
+  "fits": [
+    {
+      "target": 2024,
+      "hitters_in_model": 941,
+      "seconds": 289.03041700000176,
+      "divergences": 0,
+      "max_rhat": 1.0173345143172021,
+      "min_ess": 573.149191049763,
+      "draws": 16000
+    },
+    {
+      "target": 2025,
+      "hitters_in_model": 924,
+      "seconds": 298.76585839999825,
+      "divergences": 0,
+      "max_rhat": 1.0030588233086197,
+      "min_ess": 680.3431927593791,
+      "draws": 16000
+    },
+    {
+      "target": 2026,
+      "hitters_in_model": 897,
+      "seconds": 331.4080258999966,
+      "divergences": 0,
+      "max_rhat": 1.0046308681601634,
+      "min_ess": 1136.226411778429,
+      "draws": 16000
+    }
+  ]
+}
