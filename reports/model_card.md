@@ -174,7 +174,8 @@ Where the model and Marcel differ most, and why:
   is 17 to 30 points lower. Marcel regresses everyone to the PA-weighted league
   average, which is set by regulars. The model regresses to the average
   *hitter* of that age, and the many hitters with little playing time are
-  below the regulars. Their talent ranges are also about 100 points wide.
+  below the regulars. Their talent ranges are also wide: about 100 points for
+  Pinckney and Morales, 70 for Ford.
 - **Results ahead of contact.** For Abrams and Chaparro the model is 14 to 17
   points lower, because their 2026 results outran their expected wOBA on
   contact, which is what the model projects from.
