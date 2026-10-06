@@ -9,3 +9,5 @@ build/
 data/
 *.csv
 *.parquet
+
+*.bak

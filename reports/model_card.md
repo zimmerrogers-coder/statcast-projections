@@ -128,7 +128,9 @@ Reading it:
 
 - **Against Marcel it is a tie.** The model wins 2024 clearly, loses 2026
   clearly, and 2025 is a toss-up. Pooled, the difference is .0001.
-- **It beats league average and last season's wOBA** in essentially every resample.
+- **It beats last season's wOBA** in every resample, and **league average** in
+  essentially every resample pooled over the three seasons (2026 alone, 65%:
+  within chance).
 - **It orders hitters better** (rank correlation .41 against .36) and is **less
   biased** (+.0016 against +.0061; Marcel ran high in all three seasons).
 - **Its ranges are calibrated.** 77%, 80% and 80% of actual results fell inside
